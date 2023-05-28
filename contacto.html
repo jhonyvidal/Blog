@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-column">
+        <h1>Formulario de Contacto</h1>
+        <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+  
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+  
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text" id="ocupacion" name="ocupacion" required>
+  
+        <label for="categoria">Categoría de participación:</label>
+        <select id="categoria" name="categoria">
+          <option value="opcion1">Opción 1</option>
+          <option value="opcion2">Opción 2</option>
+          <option value="opcion3">Opción 3</option>
+        </select>
+  
+        <input type="submit" value="Enviar">
+      </form>
+    </div>  
+    <div class="cards-column">
+        <div class="card">
+            <img src="src/img1.jpg" alt="Imagen 1">
+            <div class="card-content">
+              <h2>Globalización</h2>
+              <p>Descripción de la entrada 1.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="src/img2.jpg" alt="Imagen 2">
+            <div class="card-content">
+              <h2>Título de la entrada 2</h2>
+              <p>Descripción de la entrada 2.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="src/img3.jpg" alt="Imagen 3">
+            <div class="card-content">
+              <h2>Título de la entrada 3</h2>
+              <p>Descripción de la entrada 3.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Jhony Vidal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

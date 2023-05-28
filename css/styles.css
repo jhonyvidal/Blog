@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    flex: 1;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .content-column {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .cards-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    color: #555;
+  }
+
+  .date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  html, body {
+    height: 100%;
+  }
+/* Estilos para el menú */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Estilos responsive para el menú */
+@media (max-width: 600px) {
+  nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav li a {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+/* Estilos responsive para el formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label,
+input,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.Custom_a {
+  color: #56b5ac;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+section ul {
+  margin-bottom: 8px;
+}
+
+section ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+/* estilos de los cards */
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+}
+
+.card-content p {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
