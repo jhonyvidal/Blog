@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Laboratorio</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="laboratorio.html">Laboratiorio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-column">
+      <h1>Ejercicios Laboratorio</h1><br>
+      <p>A continuacion se presentan los ejercicios del 
+        curso de desarrollo de aplicaciones en red
+      </p><br>
+      <h2>Ejercicios JavaScript</h2>
+      <p>
+        <li><a href="#" class="Custom_a" id="script1">Script 1</a></li>
+        <li><a href="#" class="Custom_a" id="script2">Script 2</a></li>
+        <li><a href="#" class="Custom_a" id="script3">Script 3</a></li>
+        <li><a href="#" class="Custom_a" id="script4">Script 4</a></li>
+      </p>
+      <h2>Ejercicios Ajax</h2>
+      <p>
+        <p>1.	Al cargar la página, el cuadro de texto debe mostrar por defecto la URL de la propia página</p></br>
+        <input type="text" id="urlInput"></input><br>
+        <p>2.	Al pulsar el botón Mostrar Contenidos, se debe descargar mediante peticiones AJAX el contenido correspondiente a la URL introducida por el usuario. El contenido de la respuesta recibida del servidor en se debe mostrar en la zona de Contenidos del archivo.</p></br>
+        <button id="showContentsBtn">Mostrar Contenidos</button><br><br>
+        <p>3.	En la zona Estados de la petición se debe mostrar en todo momento el estado en el que se encuentra la petición (no iniciada, cargando, completada, etc.).</p>
+        <div id="statusZone">Estado de la petición: No iniciada</div><br>
+        <p>4.	Mostrar el contenido de todas las cabeceras de la respuesta del servidor en la zona Cabeceras HTTP de la respuesta del servidor.</p> 
+        <div id="headersZone">Cabeceras HTTP de la respuesta del servidor:</div><br>
+        <p>5.	Mostrar el código y texto de la respuesta del servidor en la zona Código de estado.</p>
+        <div id="statusCodeZone">Código de estado:</div>
+        <div id="contentZone"></div>
+      </p>
+    
+       
+    </div>
+    <div class="cards-column">
+        <div class="card">
+            <img src="src/img1.jpg" alt="Imagen 1">
+            <div class="card-content">
+              <h2>Globalización</h2>
+              <p>Descripción de la entrada 1.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="src/img2.jpg" alt="Imagen 2">
+            <div class="card-content">
+              <h2>Título de la entrada 2</h2>
+              <p>Descripción de la entrada 2.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="src/img3.jpg" alt="Imagen 3">
+            <div class="card-content">
+              <h2>Título de la entrada 3</h2>
+              <p>Descripción de la entrada 3.</p>
+              <a href="#" class="button">Leer más</a>
+            </div>
+          </div>
+    </div>
+
+   
+     
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Jhony Vidal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+<script src="./js/script1.js"></script>
+<script src="./js/script2.js"></script>
+<script src="./js/script3.js"></script>
+<script src="./js/script4.js"></script>
+<script src="./js/ajax.js"></script>
